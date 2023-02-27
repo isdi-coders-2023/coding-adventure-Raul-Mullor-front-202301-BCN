@@ -9,6 +9,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-    <TheButton text={"Hola que tal"} />
+    <TheButton text={"Sign up"} />
   </React.StrictMode>
 );

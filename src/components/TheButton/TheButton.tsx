@@ -1,9 +1,11 @@
+import TheButtonStyled from "./TheButtonStyled";
+
 interface TheButtonProps {
   text: string;
 }
 
 const TheButton = ({ text }: TheButtonProps): JSX.Element => {
-  return <button>{text}</button>;
+  return <TheButtonStyled> {text} </TheButtonStyled>;
 };
 
 export default TheButton;
