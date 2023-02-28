@@ -4,7 +4,7 @@ import theme from "../../theme/theme";
 import TheButton from "./TheButton";
 
 describe("Given a TheButton component", () => {
-  describe("When its rendered", () => {
+  describe("When its rendered with the text Sing Up", () => {
     test("Then it should show a button with the text 'eee you'", () => {
       const text = "eee you";
 
