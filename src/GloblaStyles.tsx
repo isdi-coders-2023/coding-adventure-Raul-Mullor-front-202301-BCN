@@ -7,14 +7,15 @@ const GlobalStyles = createGlobalStyle`
     --primaryFont: "Roboto", sans-serif;
     --displayFont: "Saira Stencil One", sans-serif;
   }
+  
   *, ::before, ::after {
     box-sizing: border-box;
   }
   
   body {
     margin: 0;
-    font-family: var(--primaryFont);
-    background-color: var(--primaryColor);
+    font-family: ${(props) => props.theme.font.secondary};
+    background-color: ${(props) => props.theme.color.secondary};
     color:#fff
   }
   h1, h2 {

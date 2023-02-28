@@ -1,4 +1,6 @@
 import { render, screen } from "@testing-library/react";
+import { ThemeProvider } from "styled-components";
+import theme from "../../theme/theme";
 import TheButton from "./TheButton";
 
 describe("Given a TheButton component", () => {
@@ -6,7 +8,11 @@ describe("Given a TheButton component", () => {
     test("Then it should show a button with the text 'eee you'", () => {
       const text = "eee you";
 
-      render(<TheButton text={text} />);
+      render(
+        <ThemeProvider theme={theme}>
+          <TheButton text={text} />
+        </ThemeProvider>
+      );
 
       const result = screen.getByRole("button", { name: text });
 
