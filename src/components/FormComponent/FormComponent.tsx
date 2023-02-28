@@ -1,18 +1,32 @@
 const FormComponent = (): JSX.Element => {
   return (
     <form>
-      <button></button>
-      <label>
-        imagen
-        <input type="text" name="name"></input>
+      <label htmlFor="Email">
+        Email
+        <input
+          id="Email"
+          placeholder="Introduce your email"
+          type="email"
+          name="name"
+        />
       </label>
-      <label>
-        password
-        <input type="text" name="name"></input>
+      <label htmlFor="password">
+        Password
+        <input
+          id="password"
+          placeholder="Introduce your password"
+          type="password"
+          name="name"
+        />
       </label>
-      <label>
-        email
-        <input type="text" name="name"></input>
+      <label htmlFor="image">
+        Image
+        <input
+          id="image"
+          placeholder="Introduce an image"
+          type="file"
+          name="name"
+        />
       </label>
     </form>
   );
