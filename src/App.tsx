@@ -1,7 +1,12 @@
 import React from "react";
+import FormComponent from "./components/FormComponent/FormComponent";
 
 const App = (): JSX.Element => {
-  return <p>Coding Adventure</p>;
+  return (
+    <>
+      <FormComponent />
+    </>
+  );
 };
 
 export default App;

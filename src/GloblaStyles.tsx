@@ -9,7 +9,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${(props) => props.theme.font.secondary};
     background-color: ${(props) => props.theme.color.secondary};
-    color:#fff
+    color: ${(props) => props.theme.color.secondary};;
+    padding: 10px;
   }
 
   h1, h2 {
