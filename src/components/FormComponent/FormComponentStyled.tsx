@@ -10,6 +10,7 @@ const FormComponentStyled = styled.form`
     flex-direction: column;
     gap: 9px;
     font-family: ${(props) => props.theme.font.main};
+    color: ${(props) => props.theme.color.third};
   }
 
   input {
