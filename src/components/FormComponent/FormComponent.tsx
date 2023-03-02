@@ -1,3 +1,4 @@
+import TheButton from "../TheButton/TheButton";
 import FormComponentStyled from "./FormComponentStyled";
 
 const FormComponent = (): JSX.Element => {
@@ -31,6 +32,7 @@ const FormComponent = (): JSX.Element => {
             name="name"
           />
         </label>
+        <TheButton text={"Sign Up"} />
       </FormComponentStyled>
     </>
   );

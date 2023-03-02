@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import App from "./App";
 import GlobalStyles from "./GloblaStyles";
 import theme from "./theme/theme";
+import "@fontsource/roboto";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
