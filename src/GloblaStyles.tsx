@@ -1,13 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-  :root {
-    --primaryColor: #1e1e1e;
-    --accentColor: #cccf18;
-    --primaryFont: "Roboto", sans-serif;
-    --displayFont: "Saira Stencil One", sans-serif;
-  }
-  
+ 
   *, ::before, ::after {
     box-sizing: border-box;
   }
@@ -35,7 +29,7 @@ const GlobalStyles = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
-  
+
   button {
     font-family: inherit;
     border: none;
